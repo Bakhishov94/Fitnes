@@ -1,0 +1,460 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+  width: 100%;
+  height: 720px;
+  background-image: url(/Start/Tasks/fittnes.com/images/Yeni\ Proje\ \(1\).jpg);
+  background-size: cover;
+}
+nav {
+  width: 100%;
+  height: 50px;
+  display: inline-block;
+  margin-top: 50px;
+  position: relative;
+}
+
+nav ul li {
+  display: inline-block;
+}
+nav li :not(li:first-child) {
+  margin-inline: 20px;
+}
+nav li:first-child {
+  margin: 0 700px 0 50px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 4px;
+}
+nav li:first-child a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+nav li:first-child a::before {
+  content: "💧";
+}
+hr {
+  width: 30px;
+  height: 2px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 27px;
+  margin-left: -808px;
+  background-color: greenyellow;
+  border: none;
+}
+
+.youCan {
+  width: 302px;
+  height: 100px;
+  display: inline-block;
+  margin: 449px 0 0 100px;
+  color: white;
+}
+.youCan h1 span {
+  color: greenyellow;
+}
+.youCan p span {
+  color: red;
+}
+nav li a:hover:not(nav li:first-child a) {
+  background-color: rgba(172, 255, 47, 0.297);
+  transition-duration: 1s;
+}
+header img {
+  width: 99.5%;
+  margin-top: -452px;
+  rotate: calc(-1.3deg);
+}
+main {
+  width: 100%;
+  height: 2174px;
+  background-color: aqua;
+}
+
+.green {
+  width: 100%;
+  height: 974px;
+  background-color: #a2ca28;
+}
+.import {
+  width: 70%;
+  height: 600px;
+  margin: auto;
+}
+.data {
+  width: 100%;
+  height: 300px;
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.data div {
+  width: calc(25% - 20px);
+  height: 100%;
+  float: left;
+  margin-inline: 10px;
+}
+.data div i {
+  color: white;
+  font-size: 40px;
+}
+.data div h3,
+p {
+  color: white;
+  text-align: left;
+}
+
+.data div h3 {
+  margin: 10px 0 10px 0;
+  font-weight: 400;
+}
+.data div p {
+  font-size: 12px;
+  font-weight: 200;
+}
+
+button {
+  margin-top: 50px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.fitnessFirst {
+  width: 100%;
+  height: 300px;
+  /* background-color: blue; */
+}
+.firstWrite {
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+.firstImg {
+  width: 70%;
+  height: 100%;
+  background-color: azure;
+  float: left;
+  overflow: hidden;
+}
+
+.firstImg img {
+  width: 100%;
+  margin-top: -100px;
+}
+
+.firstWrite h4 {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+}
+.firstWrite h2 {
+  color: #a2ca28;
+  font-weight: 300;
+}
+.firstWrite p {
+  margin: auto;
+  color: #656e74;
+  text-align: center;
+}
+.firstWrite button a {
+  color: #a2ca28;
+}
+.yourBody {
+  width: 100%;
+  height: 300px;
+  /* background-color: blue; */
+}
+.bodyImg {
+  width: 70%;
+  height: 100%;
+  float: left;
+  background-color: aqua;
+  overflow: hidden;
+}
+.bodyWrite {
+  width: 30%;
+  height: 100%;
+  background-color: azure;
+  float: left;
+  text-align: center;
+  padding: 20px;
+}
+
+.bodyImg img {
+  width: 100%;
+  margin-top: -100px;
+}
+.bodyWrite h4 {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+}
+.bodyWrite h2 {
+  color: #a2ca28;
+  font-weight: 300;
+}
+.bodyWrite p {
+  margin: auto;
+  color: #656e74;
+  text-align: center;
+}
+.bodyWrite button a {
+  color: #a2ca28;
+}
+.pink {
+  width: 100%;
+  height: 1200px;
+  background-color: #fd634e;
+}
+
+.lifestyle {
+  width: 70%;
+  height: 1200px;
+  margin: auto;
+  background-color: aqua;
+}
+.lifeImg {
+  width: 100%;
+  height: 300px;
+  margin: auto;
+}
+.ImgSmall {
+  width: 30%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.imgBig {
+  width: 70%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.ImgSmall img {
+  margin-left: -430px;
+  margin-top: -70px;
+}
+.imgBig img {
+  margin-top: -210px;
+  margin-left: -70px;
+}
+.lifewrite {
+  width: 100%;
+  height: 300px;
+  background-color: aliceblue;
+}
+.smallwrite {
+  width: 30%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  background-color: white;
+  padding: 50px;
+}
+.bigWrite {
+  width: 70%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  background-color: #a2ca28;
+  padding: 50px;
+  box-shadow: -4px 2px 2px grey;
+}
+.smallwrite h4 {
+  color: red;
+  font-weight: 400;
+  font-size: 14px;
+}
+.smallwrite h2 {
+  color: #a2ca28;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+.smallwrite p {
+  margin: auto;
+  color: #656e74;
+}
+.bigWrite h1 {
+  color: white;
+  font-weight: 300;
+  font-size: 30px;
+}
+.bigWrite p {
+  color: white;
+  font-size: 14px;
+  margin-top: 30px;
+}
+.eating {
+  width: 100%;
+  height: 300px;
+}
+.eatingImg {
+  width: 100%;
+  height: 100%;
+}
+.eatbig {
+  width: 70%;
+  height: 100%;
+  float: left;
+  background-color: bisque;
+  overflow: hidden;
+}
+.eatSmall {
+  width: 30%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+.eatbig img {
+  margin-top: -100px;
+}
+.eatSmall img {
+  margin-top: -30px;
+  margin-left: -100px;
+}
+.eatingWrite {
+  width: 100%;
+  height: 300px;
+}
+footer{
+  width: 100%;
+  height: 1000px;
+  background-color: #0d1119;
+}
+.footerImg{
+  width: 100%;
+  height: 70%;
+  display: inline-block;
+  background-image: url(/Start/Tasks/fittnes.com/images/youcan.jpg);
+  background-size: auto;
+  position: relative;
+}
+.footerwrite{
+  width: 70%;
+  height: 295px;
+  margin: auto;
+  
+}
+.footerImg img{
+  width: 100%;
+  margin-top: 529px;
+  display: inline-block;
+  z-index: 2;
+  position: absolute;
+}
+.qirmizi{
+  width: 98%;
+  height: 50px;
+  background-color: red;
+  margin-top:650px;
+  display: inline-block;
+}
+.footerImg p{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  position: absolute;
+  margin:220px 0 0 350px;
+}
+.footerImg h1{
+  color: white;
+  text-align: center;
+  font-weight: 300;
+  position: absolute;
+  margin:180px 0 0 450px;
+}
+.footerWriteSmall{
+  width: 30%;
+  height: 100%;
+  color: white;
+  padding: 10px;
+  float: left;
+}
+.footerWriteSmall p{
+  font-size: 12px;
+  margin-top: 20px;
+  
+}
+.footerWriteBig{
+  width: 70%;
+  height:100% ;
+  float: left;
+  margin: 10px 0 0 0px;
+  padding-left: 30px;
+}
+.aboutWrite{
+  width: 60%;
+  height: 50%;
+  float: left;
+}
+.stayintouch{
+  width: 40%;
+  height: 50%;
+  float: left;
+  cursor: pointer;
+}
+.aboutWrite h3{
+  color: white;
+}
+.aboutWrite p{
+  font-size: 12px;
+  margin-top: 20px;
+}
+.footerinput{
+  width: 100%;
+  height: 50%;
+  float: left;
+}
+input{
+  width: 230px;
+  height: 40px;
+  border-radius: 3px;
+  padding: 10px;
+  border: none;
+
+}
+input:last-child{
+  background-color: #a2ca28;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+  nav {
+    margin-top: 10px;
+  }
+  nav li :not(li:first-child) {
+    margin-inline: 0px;
+  }
+  nav li:first-child {
+    margin: 0 700px 0 10px;
+  }
+  header {
+    background-size: cover;
+  }
+  .youCan {
+    margin: 449px 0 0 10px;
+    font-size: 15px;
+  }
+  nav ul li{
+    display:block ;
+  }
+  header img {
+   display: none;
+  }
+}
